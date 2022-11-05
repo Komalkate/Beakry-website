@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --purple: #4E2A84;
+    --pink: #FF0E83;
+    --white: white;
+    --black: black;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.navMenu{
+    display: none;
+}
+.butonNav{
+    width: 40px;
+    height: 40px;
+}
+.nav-link:hover{
+    color: var(--pink);
+}
+.section1{
+    background-color: var(--purple);
+}
+.section2{
+    padding: 12rem 0;
+    background-image: url(../images/b3.jpg);
+    background-size: cover
+}
+.heading1{
+    font-size: 4rem;
+    color: var(--white);
+    
+}
+.spanHero{
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+}
+.buttonPink{
+    padding: 8px 25px;
+    border: 1.5px solid var(--white);
+    border-radius: 5px;
+    margin: 20px 0px;
+    color: var(--white);
+    background-color: var(--pink);
+    transition-duration: .5s;
+}
+.buttonPink:hover{
+    background-color: var(--white);
+    border: 2px solid var(--pink);
+    color: var(--blavk);
+}
+.purPle{
+    background-color: var(--purple);
+    padding: 70px 10px;
+}
+.Pink{
+    background-color: var(--pink);
+    padding: 70px 10px;
+}
+.LightPurple{
+    background-color: #836EAA;
+    padding: 70px 10px;
+}
+.LightPink{
+    background-color: #ED6498;
+    padding: 70px 10px;
+}
+.section4 h2{
+    color: var(--purple);
+}
+.section5{
+    background-image: url(../images/s1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-icon{
+    width: 100px;
+    height: 100px;
+    background-color: var(--white);
+    border: 1px solid var(--purple);
+    color: var(--purple);
+    border-radius: 50%;
+    padding-top: 25px;
+    transition-duration: .6s;
+}
+.white-shadow:hover .banner-icon{
+    color: var(--pink);
+}
+.fas, .fab, .far{
+    font-size: 50px;
+}
+.heading2{
+    font-size: 50px;
+    color: var(--white);
+    font-weight: 600;
+}
+h4{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.effect-marley{
+    position: relative;
+}
+figcaption{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    padding: 40px  0 0 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.27);
+    color: var(--white);
+    transition: ease-out .8s;
+}
+
+.gallery-grids:hover figcaption{
+    height: 100%;
+}
+.gallery-grids:hover p{
+    padding: 80px 0 0 0 ;
+    transition: ease-out .8s;
+}
+.gallery-grids:hover h2{
+    border-bottom: dashed 3px;
+}
+.section7{
+    background-color: var(--purple);
+}
+.team-img{
+    position: relative;
+}
+.team-grid{
+    position: relative;
+    transition: .6s ease-in ease-out;
+}
+.OverLAY{
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    text-align: center;
+    width: 1%;
+    height: 100%;
+    color: rgb(209, 209, 209);
+    top: 0;
+    z-index: 30;
+    padding: 0px;
+    transition: .6s ease-in ease-out;
+    display: none;
+}
+.OverLAY h4{
+    color: var(--pink);
+    font-size: 38px;
+}
+.OverLAY  p{
+    font-size: 20px;
+}
+.bottom-social ul li{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    padding: 10px 0 0 0px;
+    border: 2px solid var(--white);
+}
+.bottom-social ul li span{
+    font-size: 25px;
+    color: white;
+}
+.team-content{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 30%;
+    background-color: var(--pink);
+    padding: 0 20px;
+    line-height: 0;
+    transition: .6s ease-in ease-out;
+}
+.team-grid:hover .team-content{
+    display: none;
+    transition-duration: .6s;
+}
+.team-grid:hover .OverLAY{
+    display: block;
+    width: 100%;
+    transition: .6s ease-in ease-out;
+}
+.section8{
+    background-image: url(../images/b3.jpg);
+}
+.owl-carousel{
+    border: 5px solid var(--pink);
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 30px;
+}
+.owl-carousel span{
+    color: var(--purple);
+    font-size: 30px;
+}
+.owl-carousel h5{
+    position: relative;
+}
+.owl-carousel h5::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    margin-top: 13px;
+    height: 2px;
+    left: 44%;
+    background-color: rgb(102, 102, 102);
+}
+.owl-carousel p{
+    font-size: 20px;
+}
+.inputButton{
+    background-color: var(--pink);
+    transition-duration: .6s;
+}
+.inputButton:hover{
+    background-color: var(--black);
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.logoBottm{
+    color: var(--purple);
+}
+.dance-agile-info{
+    /* line-height: 20px; */
+    font-size: 16px;
+    color: var(--white);
+}
+.section11{
+    background-color: var(--black);
+}
+.underDot{
+    border-bottom: dotted;
+    padding: 0 0 0 54px;
+}
+.headFott, .headFot a{
+    color: var(--pink);
+    font-weight: bold;
+    font-size: 25px;
+}
+.pinkButtoNN{
+    margin-top: 10px;
+    background-color: var(--pink);
+    color: var(--white);
+    font-weight: bold;
+}
+.pinkButtoNN:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+.bottom-social .fottIcon{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 4px 0 0 3px;
+    color: var(--white);
+    border: 3px solid white;
+    margin: 0 5px;
+}
+.footP a{
+    color: var(--pink);
+}
+@media (min-width:992px){
+    .navMenu{
+        display: block;
+    }
+            
+    .OverLAY{
+        padding: 0px;
+    }
+    
+}
